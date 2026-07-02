@@ -1,0 +1,21 @@
+# Node modules (dependencies)
+node_modules/
+
+# Frontend builds
+dist/
+.production/
+
+# Local Environment configuration (contains sensitive passwords)
+.env
+backend/.env
+frontend/.env
+
+# Local database files
+mysql_data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
